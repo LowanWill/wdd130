@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a {
     text-align: center;
     color:#5aa9e6;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1 {
@@ -26,12 +29,19 @@ nav a {
 main section {
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
     background-color:#ffe45e;
   }
 body {
     background-color: #f9f9f9;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
   }
   header {
       background-color:#ffe45e;
@@ -45,21 +55,33 @@ body {
       background-color: #ffe45e;
       color: black;
       text-decoration: none;
+      font-size: 18px;
+      padding: 15px 30px;
+      margin-top: 50px;
+      border-radius: 5px;
+
   }
   .book:hover, .join:hover {
       background-color: #7fc8f8;
   }
   .msg {
       background-color:#ffe45e;
+      line-height: 1.5em;
+      padding: 35px;
   }
   .msg h2 {
       color:#5aa9e6; 
+      font-family: "Fredericka the Great";
   }
   .msg p {
-      color:#5aa9e6
+      color:#5aa9e6;
+      font-size: .8em;
+      padding-bottom: 15px;
   }
   footer {
-      background-color:#7fc8f8; 
+      background-color:#7fc8f8;
+      padding: 25px 50px; 
+      margin-top: 200px;
   }
   footer h3 {
       color:white;
@@ -74,8 +96,14 @@ body {
   footer a:hover {
       color:#ffe45e;
   }
+  footer .social img {
+      padding-top: 15px;
+  }
   .home-title {
       color:#5aa9e6; 
+      font-family: "Fredericka the Great", sans-serif;
+      font-size: 2em;
+      margin-top: 10px;
   }
   h4 {
       color:#5aa9e6;
@@ -85,5 +113,20 @@ body {
   }
   .icon {
       width: 80px;
+      padding-top: 10px;
+  }
+  h2{
+      margin: 0;
+      
+  }
+  #logo_link{
+      padding-top: 5px;
+  }
+  .rivers-card, .camping-card, .rapids-card {
+      margin: 200px 0;
+  }
+  .card-img {
+      border: 10px solid black;
+
   }
   

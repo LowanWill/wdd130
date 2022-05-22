@@ -6,20 +6,26 @@ nav, footer {
     padding: 10px;
     text-align: center;
   }
-  footer p {
+footer p {
     font-size: 20px;
     margin: 20px auto;
+    padding: 25px;
   }
-
+footer {
+    background-color: steelblue;
+    color: white;
+  }
 a {
     color: white;
     margin: 40px;
     font-size: 1.5em;
+    padding: 25px;
   }
 
 h1 {
     color: steelblue;
     text-align: center;
+    margin: 50px 0;
   }
 img {
     width: 80%;
@@ -47,3 +53,11 @@ a:hover {
   background-color: white;
   color: steelblue;
 }
+nav {
+  background-color: steelblue;
+  padding: 25px;
+}
+body {
+  margin: 0;
+}
+
