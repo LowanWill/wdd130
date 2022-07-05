@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Poppins:wght@300&display=swap');
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a {
+    text-align: center;
+    color:#ccc9DC;
+    text-decoration: none;
+    padding: 35px;
+}
+#hero-img {
+    width:100%;
+    padding-bottom: 50px;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    
+}
+header {
+    background-color: #324a5f;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+body {
+    background-color: #ccc9DC;
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+      display: flex;
+      justify-content: space-around;
+  }
+  nav a:hover {
+    background-color: #ccc9DC;
+    color:#0c1821;
+}
+.logo {
+    width: 150px;
+}
+footer {
+    background-color:#324a5f;
+    padding: 25px 50px; 
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer h3 {
+    color:#ccc9DC;
+}
+footer a {
+    color:#ccc9DC;
+    text-decoration: none;
+}
+footer a:hover {
+    color:#0c1821;
+}
+footer .social img {
+    padding-top: 15px;
+}
+footer h3 a:hover {
+    text-decoration:underline;
+}
+main, .home-grid {
+    display: grid;
+    grid-template-columns: 50% 50%; 
+}
+.logo-img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 0 auto;
+    padding: 80px;
+    
+    
+}
+
+.msg {
+    width: 80%;
+    background-color:white;
+    line-height: 1.5em;
+    padding: 25px;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.msg h2 {
+    color:#0c1821; 
+    font-family: "Homemade Apple";
+    text-align: center;
+}
+.msg p {
+    color:#0c1821;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.button-box {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+    
+}
+.appointment {
+    background-color: #1B2A41;
+    color: #ccc9DC;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.photo-card {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin: 0 auto;
+    border: 1px solid #0c1821;
+    margin-top: 50px;
+    
+}
