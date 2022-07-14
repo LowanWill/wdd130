@@ -80,8 +80,6 @@ main, .home-grid {
     grid-row: 1/2;
     margin: 0 auto;
     padding: 80px;
-    
-    
 }
 
 .msg {
@@ -214,5 +212,71 @@ main, .tech-grid {
     
 }
 h2, .tech-title {
+    text-align: center;
+}
+/* page 3 css*/
+main, .security-grid {
+    display: grid;
+    grid-template-columns: 50% 50%; 
+}
+.security-photo-img {
+    width: 90%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 25px;
+}
+.security-title1 {
+    width: 80%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.security-msg {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 80%;
+    background-color:white;
+    line-height: 1.5em;
+    font-size: .8em;
+    padding: 25px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.security-msg h2 {
+    color:#0c1821; 
+    font-family: "Homemade Apple";
+    text-align: center;
+}
+.security-logo {
+    width: 80%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.security-button-box {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin: 0 auto; 
+    margin-top: 25px;
+}
+.security-photo-img2 {
+    width: 80%;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    padding: 25px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.security-title2 {
+    width: 80%;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    margin: 0 auto;
+    margin-top: 200px;
+    
+}
+h2, .security-title {
     text-align: center;
 }
